@@ -1,6 +1,6 @@
 from tkinter import *
 import random
-
+hi
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
 SPEED = 100 # the higher the space, the slower the game
