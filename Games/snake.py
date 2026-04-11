@@ -10,7 +10,9 @@ WINDOW_HEIGHT = TITLE_SIZE * ROWS
 
 
 class Tile:
-    pass
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
 
 
@@ -34,5 +36,8 @@ window_x = int((screen_width/2) - (window_width/2))
 window_y = int((screen_height/2) - (window_height/2))
 
 window.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
+
+#initalize game
+snake = Tile(5*TITLE_SIZE, 5*TITLE_SIZE) #single tile, snake's head
 
 window.mainloop()
