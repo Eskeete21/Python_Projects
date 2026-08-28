@@ -17,4 +17,3 @@ def get_number():
 
 main()
 
-#yo
