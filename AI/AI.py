@@ -89,6 +89,10 @@ def play():
         print("ENDING: THE QUIET HERO\n")
         print("The signal stops. The moon goes dark. You fly home with a mystery")
         print("and the uneasy feeling that something out there noticed you.")
+    elif roll >= 8:
+        print("ENDING: THE SIGNAL KEEPER\n")
+        print("The probe finds a living world beyond the doorway—and something there answers.")
+        print(f"You stay behind to guide the first reply, {name}, while the probe charts a safe path home.")
     else:
         print("ENDING: A NEW BEGINNING\n")
         print("The probe returns with a tiny glowing seed. It unfolds into a map")
